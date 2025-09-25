@@ -110,7 +110,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Dark Mode</h3>
               <p className="text-gray-600">
-                Work comfortably in any environment with our beautiful dark mode that's easy on the eyes.
+                Work comfortably in any environment with our beautiful dark mode that&apos;s easy on the eyes.
               </p>
             </div>
           </div>

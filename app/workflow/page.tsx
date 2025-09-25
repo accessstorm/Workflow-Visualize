@@ -381,7 +381,7 @@ function WorkflowEditor() {
 
   useEffect(() => {
     setNodes((prev) => attachCallbacks(prev));
-  }, []); // Run only once on mount
+  }, [attachCallbacks, setNodes]);
 
   const onConnect = useCallback((params: Connection) => setEdges((eds) => addEdge({ ...params, animated: true, style: { strokeWidth: 2 } }, eds)), [setEdges]);
 
